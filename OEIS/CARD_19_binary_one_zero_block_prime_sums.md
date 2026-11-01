@@ -1,6 +1,6 @@
 # Sequence Card 19: Sum of n-bit primes with a single circular run of 1s and at most one internal block of 0s
 
-* **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) · [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
+* **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) | [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
 * **Verification Code:** [`../Code/`](../Code/)
 
 ## DATA (%S)
@@ -12,7 +12,7 @@
 ## NAME (%N)
 
 ```text
-Sum of n-bit primes of the form 2^n - 1 or (2^n - 1) - 2^s*(2^k - 1) with 1 <= k <= n - 2 and 1 <= s <= n - 1 - k (primes of binary length n whose binary expansion has a single circular run of 1s and at most one internal block of 0s).
+Sum of n-bit primes whose binary expansion has a single circular run of 1s and at most one internal block of 0s.
 ```
 
 ## OFFSET (%O)
@@ -24,7 +24,7 @@ Sum of n-bit primes of the form 2^n - 1 or (2^n - 1) - 2^s*(2^k - 1) with 1 <= k
 ## COMMENTS (%C)
 
 ```text
-The candidates are the n-bit numbers whose binary expansion is a block of 1s, a nonempty internal block of k zeros, and a nonempty block of s ones, together with 2^n - 1 itself; cyclically, the expansion has one run of 1s and at most one run of 0s (equivalently, the odd n-bit terms of A100724).
+Equivalently, sum of primes of the form 2^n - 1 or (2^n - 1) - 2^s*(2^k - 1) with 1 <= k <= n - 2 and 1 <= s <= n - 1 - k (the odd n-bit prime terms of A100724): binary length n consisting of a block of 1s, an internal block of k zeros, and a block of s ones, together with 2^n - 1 itself.
 For even n >= 4, 3 divides both 2^n - 1 and 2^k - 1 for even k, so every prime summand has odd zero-block length k; for odd n >= 5, 3 divides (2^n - 1) - 2^s*(2^k - 1) whenever k is odd and s is even.
 The number of such primes of bit length n, for n >= 2, is 1, 2, 2, 5, 3, 7, 9, 11, 7, 14, 9, 16, 12, 13, 22, 27, 13, 32, 27, ...
 For n = 7 the primes are 67, 71, 79, 97, 103, 113, 127 and a(7) = 657; for n = 10 they are 769, 911, 967, 991, 1009, 1019, 1021 and a(10) = 6687; for n = 16 there are 22 primes summing to a(16) = 1203372, whose two largest terms are the twin primes 65519 and 65521 = 2^16 - 15 straddling 65520 = lcm(1..10, 12..16).
@@ -69,7 +69,6 @@ a(n) = {
   );
   return(s);
 }
-
 (Julia)
 isprime(n::Int) = n > 1 && all(d -> n % d != 0, 2:isqrt(n))
 function a(n::Int)
@@ -85,10 +84,8 @@ function a(n::Int)
     return total
 end
 println([a(n) for n in 2:25])
-
 (Python)
 from sympy import isprime
-
 def a(n: int) -> int:
     m = (1 << n) - 1
     total = m if isprime(m) else 0
@@ -99,7 +96,6 @@ def a(n: int) -> int:
             if isprime(p):
                 total += p
     return total
-
 print([a(n) for n in range(2, 26)])
 ```
 
@@ -118,5 +114,5 @@ nonn,base,easy
 ## AUTHOR (%A)
 
 ```text
-_Igor M. Zhuk_, Oct 19 2026
+_Igor Zhuk_, Nov 01 2026
 ```

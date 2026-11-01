@@ -1,6 +1,6 @@
 # Sequence Card 01: (z + 2)(z^3 + 2z - 1) + z -> {-2} (D = -59)
 
-* **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) · [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
+* **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) | [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
 * **Verification Code:** [`../Code/`](../Code/)
 
 ## DATA (%S)
@@ -66,7 +66,6 @@ isok(p) = {
   );
   return(1);
 }
-
 (Julia)
 isprime(n::Int) = n > 1 && all(d -> n % d != 0, 2:isqrt(n))
 function isok(p::Int)
@@ -82,10 +81,8 @@ function isok(p::Int)
     return true
 end
 println([p for p in 2:3000 if isok(p)])
-
 (Python)
 from sympy import isprime
-
 def isok(p: int) -> bool:
     if not isprime(p) or p == 2 or (p > 13 and pow(-59, p >> 1, p) != 1):
         return False
@@ -104,7 +101,6 @@ def isok(p: int) -> bool:
         for u in path:
             state[u] = 2
     return True
-
 print([p for p in range(2, 3000) if isok(p)])
 ```
 
@@ -123,5 +119,5 @@ nonn,hard,more
 ## AUTHOR (%A)
 
 ```text
-_Igor M. Zhuk_, Oct 17 2026
+_Igor Zhuk_, Nov 01 2026
 ```

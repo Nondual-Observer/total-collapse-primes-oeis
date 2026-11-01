@@ -1,6 +1,6 @@
 # Sequence Card 18: Least collapsing prime p > n + 1 for K_n (or 0 if none)
 
-* **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) · [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
+* **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) | [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
 * **Verification Code:** [`../Code/`](../Code/)
 
 ## DATA (%S)
@@ -79,7 +79,6 @@ a(n) = {
   if (r^2 == dfix, return(if(isprime(r) && isok(r, n), r, 0)));
   forprime (p = max(5, n + 2), oo, if (isok(p, n), return(p)));
 }
-
 (Julia)
 isprime(n::Int) = n > 1 && all(d -> n % d != 0, 2:isqrt(n))
 function isok(p::Int, n::Int)
@@ -107,11 +106,9 @@ function a(n::Int)
     return p
 end
 println([a(n) for n in 1:55])
-
 (Python)
 import math
 from sympy import isprime
-
 def isok(p: int, n: int) -> bool:
     bn = (n * (n + 1)) % p
     if bn == 0:
@@ -136,7 +133,6 @@ def isok(p: int, n: int) -> bool:
         for u in path:
             st[u] = st[p - u] = 2
     return True
-
 def a(n: int) -> int:
     dfix = n * n + (n + 1) * (n + 1)
     r = math.isqrt(dfix)
@@ -146,7 +142,6 @@ def a(n: int) -> int:
     while not (isprime(p) and isok(p, n)):
         p += 1
     return p
-
 print([a(n) for n in range(1, 56)])
 ```
 
@@ -165,5 +160,5 @@ nonn
 ## AUTHOR (%A)
 
 ```text
-_Igor M. Zhuk_, Oct 19 2026
+_Igor Zhuk_, Nov 01 2026
 ```
