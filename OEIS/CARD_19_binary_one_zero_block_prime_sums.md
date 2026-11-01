@@ -34,7 +34,7 @@ For n = 7 the primes are 67, 71, 79, 97, 103, 113, 127 and a(7) = 657; for n = 1
 
 ```text
 Igor M. Zhuk, <a href="https://doi.org/10.5281/zenodo.23420627">Unital Collapse Primes in Arithmetic Dynamics: Total Backward-Orbit Collapse for T(x) = (x^2 - 2)^2 mod p, Galois Stratification, and Fermat-Totient Asymptotics</a>, Zenodo preprint (2026).
-Igor M. Zhuk, <a href="https://github.com/Nondual-Observer/total-collapse-primes-oeis/blob/main/Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf">Total-Collapse Primes of Polynomial Maps over GF(p): Eighteen Families and Two Related Sequences</a>, companion preprint and verification suite (2026).
+Igor M. Zhuk, <a href="https://doi.org/10.5281/zenodo.23856799">Total-Collapse Primes of Polynomial Maps over GF(p): Eighteen Families and Two Related Sequences</a>, Zenodo preprint (2026); <a href="https://github.com/Nondual-Observer/total-collapse-primes-oeis">GitHub verification suite</a>.
 ```
 
 ## FORMULA (%F)
