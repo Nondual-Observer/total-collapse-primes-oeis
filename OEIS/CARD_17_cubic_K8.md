@@ -120,7 +120,7 @@ print([p for p in primerange(5, 2500) if isok(p)])
 ## CROSSREFS (%Y)
 
 ```text
-Cf. A401173. See the linked article for the companion sequences for K_n, n = 1, 2, 4, 5, 6, 7.
+Cf. A401173, A401667 (K_2). See the linked article for the companion sequences for K_n, n = 1, 2, 4, 5, 6, 7.
 ```
 
 ## KEYWORDS (%K)

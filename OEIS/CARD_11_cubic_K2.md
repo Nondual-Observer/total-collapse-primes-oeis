@@ -1,5 +1,6 @@
-# Sequence Card 11: K_2(u) = (u^3 - 7u)/6 -> {-1, 0, 1}
+# Sequence Card 11: K_2(u) = (u^3 - 7u)/6 -> {-1, 0, 1} (OEIS A401667)
 
+* **OEIS:** [A401667](https://oeis.org/A401667)
 * **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) | [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
 * **Verification Code:** [`../Code/`](../Code/)
 

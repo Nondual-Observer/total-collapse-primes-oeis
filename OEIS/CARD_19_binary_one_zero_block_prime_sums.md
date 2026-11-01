@@ -1,5 +1,6 @@
-# Sequence Card 19: Sum of n-bit primes with a single circular run of 1s and at most one internal block of 0s
+# Sequence Card 19: Sum of n-bit primes with a single circular run of 1s and at most one internal block of 0s (OEIS A401666)
 
+* **OEIS:** [A401666](https://oeis.org/A401666)
 * **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) | [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
 * **Verification Code:** [`../Code/`](../Code/)
 

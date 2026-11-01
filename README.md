@@ -30,9 +30,10 @@ Publication package accompanying **20 integer sequences** by Igor M. Zhuk: **18 
 | **08** | $(z + 2) P_{251}(z) + z \to \{-2\}$ | [`OEIS/CARD_08_tower_D251_to_m2.md`](OEIS/CARD_08_tower_D251_to_m2.md) | New sequence |
 | **09** | $V_6(x)^2 \to$ value $4$ (unique cycle through $4$) | [`OEIS/CARD_09_V6_squared_to_4.md`](OEIS/CARD_09_V6_squared_to_4.md) | New sequence |
 | **10** | $x^2(x - 2)^2 \to$ fixed points | [`OEIS/CARD_10_diagonal_x2_xm2_squared_fixed_points.md`](OEIS/CARD_10_diagonal_x2_xm2_squared_fixed_points.md) | New sequence |
-| **11–17** | $\mathcal{K}_n(u) = \bigl(u^3 - (n^2 + n + 1)u\bigr)/\bigl(n(n + 1)\bigr) \to \{-1, 0, 1\}$, $n = 2, 4, 1, 5, 6, 7, 8$ | [`OEIS/CARD_11_cubic_K2.md`](OEIS/CARD_11_cubic_K2.md) … [`CARD_17_cubic_K8.md`](OEIS/CARD_17_cubic_K8.md) | New sequences |
+| **11** | $\mathcal{K}_2(u) = (u^3 - 7u)/6 \to \{-1, 0, 1\}$ | [`OEIS/CARD_11_cubic_K2.md`](OEIS/CARD_11_cubic_K2.md) | [A401667](https://oeis.org/A401667) |
+| **12–17** | $\mathcal{K}_n(u) = \bigl(u^3 - (n^2 + n + 1)u\bigr)/\bigl(n(n + 1)\bigr) \to \{-1, 0, 1\}$, $n = 4, 1, 5, 6, 7, 8$ | [`OEIS/CARD_12_cubic_K4.md`](OEIS/CARD_12_cubic_K4.md) … [`CARD_17_cubic_K8.md`](OEIS/CARD_17_cubic_K8.md) | New sequences |
 | **18** | Least collapsing prime $p > n + 1$ for $\mathcal{K}_n$ (or $0$ if none) | [`OEIS/CARD_18_least_prime_cubic_Kn.md`](OEIS/CARD_18_least_prime_cubic_Kn.md) | New sequence |
-| **19** | Sum of $n$-bit primes with a single circular run of 1s and at most one internal block of 0s | [`OEIS/CARD_19_binary_one_zero_block_prime_sums.md`](OEIS/CARD_19_binary_one_zero_block_prime_sums.md) | New sequence |
+| **19** | Sum of $n$-bit primes with a single circular run of 1s and at most one internal block of 0s | [`OEIS/CARD_19_binary_one_zero_block_prime_sums.md`](OEIS/CARD_19_binary_one_zero_block_prime_sums.md) | [A401666](https://oeis.org/A401666) |
 
 ## Quick Verification
 
