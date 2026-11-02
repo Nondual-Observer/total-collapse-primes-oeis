@@ -1,5 +1,6 @@
-# Sequence Card 18: Least collapsing prime p > n + 1 for K_n (or 0 if none)
+# Sequence Card 18: Least collapsing prime p > n + 1 for K_n (or 0 if none) (OEIS A398745)
 
+* **OEIS:** [A398745](https://oeis.org/A398745)
 * **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) | [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
 * **Verification Code:** [`../Code/`](../Code/)
 
