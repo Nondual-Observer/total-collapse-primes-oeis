@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these sequences, mathematical results, or verification programs, please cite this work as below."
+type: software
+title: "Total-Collapse Primes of Polynomial Maps over GF(p): Eighteen Families and Two Related Sequences"
+authors:
+  - family-names: "Zhuk"
+    given-names: "Igor M."
+date-released: "2026-11-01"
+version: "1.0.1"
+doi: "10.5281/zenodo.23856837"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/Nondual-Observer/total-collapse-primes-oeis"
+keywords:
+  - arithmetic dynamics
+  - finite fields
+  - polynomial iteration
+  - total-collapse primes
+  - Chebyshev-Dickson polynomials
+  - Hilbert class fields
+  - integer sequences
+  - OEIS
+references:
+  - type: article
+    title: "Unital Collapse Primes in Arithmetic Dynamics: Total Backward-Orbit Collapse for T(x) = (x^2 - 2)^2 mod p, Galois Stratification, and Fermat-Totient Asymptotics"
+    authors:
+      - family-names: "Zhuk"
+        given-names: "Igor M."
+    year: 2026
+    doi: "10.5281/zenodo.23420627"

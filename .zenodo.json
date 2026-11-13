@@ -1,0 +1,32 @@
+{
+  "title": "Total-Collapse Primes of Polynomial Maps over GF(p): Eighteen Families and Two Related Sequences",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Zhuk, Igor M.",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "<p>Companion mathematical preprint (Markdown and PDF), 20 OEIS sequence cards, and self-contained exact Julia and C verification suite for 18 families of total-collapse primes of polynomial maps over GF(p) — including the odd cubic ladder K_n(u) = (u^3 - (n^2 + n + 1)u)/(n(n + 1)), squares of monic Chebyshev-Dickson polynomials V_m(x)^2, Hilbert class field maps for D = -59, -83, -251, and the diagonal SL_3 trace square x^2(x - 2)^2 — together with two related integer sequences: the least collapsing prime along K_n (with the Pell-Pythagorean obstruction) and sums of n-bit primes having a single circular run of 1s and at most one internal block of 0s.</p>",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "eng",
+  "keywords": [
+    "Arithmetic Dynamics",
+    "Finite Fields",
+    "Total-Collapse Primes",
+    "Polynomial Iteration",
+    "Chebyshev-Dickson Polynomials",
+    "Hilbert Class Fields",
+    "Integer Sequences",
+    "OEIS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23420627",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}
