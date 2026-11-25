@@ -1,7 +1,7 @@
 # Sequence Card 18: Least collapsing prime p > n + 1 for K_n (or 0 if none) (OEIS A398745)
 
 * **OEIS:** [A398745](https://oeis.org/A398745)
-* **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) | [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
+* **Companion Article:** [`Total_Collapse_Primes_18_Families_Zhuk_2026.md`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) | [`PDF`](../Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf) | [Hexagon: `2611.00883v1`](https://hexagonmath.org/abs/2611.00883v1)
 * **Verification Code:** [`../Code/`](../Code/)
 
 ## DATA (%S)
@@ -36,7 +36,7 @@ For n not in A001652 it is not known whether a suitable prime always exists; the
 
 ```text
 Igor M. Zhuk, <a href="https://doi.org/10.5281/zenodo.23420627">Unital Collapse Primes in Arithmetic Dynamics: Total Backward-Orbit Collapse for T(x) = (x^2 - 2)^2 mod p, Galois Stratification, and Fermat-Totient Asymptotics</a>, Zenodo preprint (2026).
-Igor M. Zhuk, <a href="https://doi.org/10.5281/zenodo.23856837">Total-Collapse Primes of Polynomial Maps over GF(p): Eighteen Families and Two Related Sequences</a>, Zenodo preprint (2026); <a href="https://github.com/Nondual-Observer/total-collapse-primes-oeis">GitHub verification suite</a>.
+Igor M. Zhuk, <a href="https://doi.org/10.5281/zenodo.23856837">Total-Collapse Primes of Polynomial Maps over GF(p): Eighteen Families and Two Related Sequences</a>, Zenodo preprint (2026); <a href="https://hexagonmath.org/abs/2611.00883v1">Hexagon preprint 2611.00883v1</a>; <a href="https://github.com/Nondual-Observer/total-collapse-primes-oeis">GitHub verification suite</a>.
 ```
 
 ## FORMULA (%F)

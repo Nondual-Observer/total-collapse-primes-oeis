@@ -1,6 +1,9 @@
 # Total-Collapse Primes of Polynomial Maps over GF(p): OEIS Sequence Cards, Companion Article, and Exact Verification Code
 
+[![Hexagon math.NT](https://img.shields.io/badge/Hexagon-2611.00883-2ea44f.svg)](https://hexagonmath.org/abs/2611.00883v1)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23856837.svg)](https://doi.org/10.5281/zenodo.23856837)
+
+**[Hexagon Preprint (`2611.00883v1`)](https://hexagonmath.org/abs/2611.00883v1)** · **[Hexagon PDF (`11` pp.)](https://hexagonmath.org/pdf/2611.00883v1)** · **[Companion Article (`Markdown`)](Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md)** · **[Zenodo DOI (`10.5281/zenodo.23856837`)](https://doi.org/10.5281/zenodo.23856837)**
 
 Publication package accompanying **20 integer sequences** by Igor M. Zhuk: **18 total-collapse prime sequences** for explicit polynomial maps over $\mathbb{F}_p$ (`Cards 00–17`, starting with OEIS [A401173](https://oeis.org/A401173)) and **2 related integer sequences** (`Cards 18–19`).
 
@@ -48,6 +51,7 @@ clang -O3 -o collapse_verifier collapse_verifier.c -lpthread
 
 ## Citation & Preprint Links
 
+* **Hexagon Preprint (`math.NT`, `math.CO`, `math.DS`):** [hexagon:2611.00883v1](https://hexagonmath.org/abs/2611.00883v1) · [Typeset PDF (`11` pp.)](https://hexagonmath.org/pdf/2611.00883v1)
 * **Zenodo Archive & Preprint DOI:** [10.5281/zenodo.23856837](https://doi.org/10.5281/zenodo.23856837)
 * **Companion Article (Markdown & PDF):** [`Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md`](Article/Total_Collapse_Primes_18_Families_Zhuk_2026.md) · [`Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf`](Article/Total_Collapse_Primes_18_Families_Zhuk_2026.pdf)
 * **Base Family Preprint (`Card 00 / A401173`):** Igor M. Zhuk, *Unital Collapse Primes in Arithmetic Dynamics: Total Backward-Orbit Collapse for* $T(x) = (x^2 - 2)^2 \bmod p$, *Galois Stratification, and Fermat-Totient Asymptotics*, Zenodo Preprint (2026), DOI: [10.5281/zenodo.23420627](https://doi.org/10.5281/zenodo.23420627).

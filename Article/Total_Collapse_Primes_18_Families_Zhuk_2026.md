@@ -3,6 +3,7 @@
 **Author:** Igor M. Zhuk  
 **Date:** October 2026  
 **MSC 2020:** 11B83, 37P05, 11T06, 11R37.  
+**Hexagon Preprint:** [hexagon:2611.00883v1](https://hexagonmath.org/abs/2611.00883v1) ([PDF](https://hexagonmath.org/pdf/2611.00883v1)) — `math.NT`, `math.CO`, `math.DS`.  
 **Preprint DOI:** Zenodo, DOI [10.5281/zenodo.23856837](https://doi.org/10.5281/zenodo.23856837).  
 **Companion materials:** OEIS sequence cards in [`../OEIS/`](../OEIS/), exact verification code in [`../Code/`](../Code/). Base family preprint (OEIS A401173): Zenodo, DOI [10.5281/zenodo.23420627](https://doi.org/10.5281/zenodo.23420627).
 

@@ -8,6 +8,14 @@ authors:
 date-released: "2026-11-01"
 version: "1.0.1"
 doi: "10.5281/zenodo.23856837"
+url: "https://hexagonmath.org/abs/2611.00883v1"
+identifiers:
+  - type: url
+    value: "https://hexagonmath.org/abs/2611.00883v1"
+    description: "Hexagon preprint hexagon:2611.00883v1 (math.NT, math.CO, math.DS)"
+  - type: doi
+    value: "10.5281/zenodo.23856837"
+    description: "Zenodo archive and preprint DOI"
 license: "CC-BY-4.0"
 repository-code: "https://github.com/Nondual-Observer/total-collapse-primes-oeis"
 keywords:
